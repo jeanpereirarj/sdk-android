@@ -82,12 +82,12 @@ Java
 ConexaSDK conexa = new ConexaSDK(context, new ConexaSDK.OnMeetingListener() { 
     @Override 
     public void onErrorStartMeeting(String message, int errorCode, int internalErrorCode) { 
-    //
+    
     } 
 
     @Override 
     public void onMeetingStatusChanged(MeetingStatus status, int code) { 
-    //
+    
     } 
 
 }); 
